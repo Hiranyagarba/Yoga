@@ -1,6 +1,8 @@
 # Patañjali Yoga Sūtras
 
-A study of Patañjali's Yoga Sūtras through the Sanskrit sūtras, traditional commentaries, Telugu translations, explanations, and practical application.
+A Sanskrit-to-Telugu translation of the Patañjali Yoga Sūtras.
+
+The purpose of this project is to present the original Sanskrit sūtras along with their Telugu word-to-word meanings, while preserving the meaning and terminology of the original Sanskrit text as accurately as possible.
 
 ## Contents
 
@@ -9,6 +11,13 @@ A study of Patañjali's Yoga Sūtras through the Sanskrit sūtras, traditional c
 * Vibhūti Pāda
 * Kaivalya Pāda
 
-## Sources
+## Translation Approach
 
-The study refers primarily to the Sanskrit text and traditional commentaries, especially Vyāsa Bhāṣya and Vācaspati Miśra's Tattvavaiśāradī.
+The translation focuses on:
+
+* The original Sanskrit sūtra
+* Word-to-word Telugu meaning
+* Accurate representation of Sanskrit terminology
+* Clear and natural Telugu without adding concepts that are not present in the original sūtra
+
+The primary purpose is translation rather than commentary or interpretation.
