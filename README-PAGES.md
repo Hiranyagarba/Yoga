@@ -30,3 +30,12 @@ Do not enter a Custom domain. The free project-site URL is:
 `https://hiranyagarba.github.io/Yoga/`
 
 GitHub Pages supports project sites at `https://<owner>.github.io/<repositoryname>`. 
+
+
+## Important: Markdown loading
+
+The reader pages load the existing public Markdown files from the repository's `main`
+branch through GitHub's raw-content endpoint. This is intentional: GitHub Pages does
+not expose a repository's `.md` files as raw Markdown at the same URL path.
+
+Therefore, you can keep your existing one-sūtra-per-file structure unchanged.

@@ -68,7 +68,7 @@
   }
   async function load(){
     const files=[];
-    for(let i=1;i<=P.count;i++) files.push(`${P.folder}/${P.prefix}${String(i).padStart(2,"0")}.md`);
+    for(let i=1;i<=P.count;i++) files.push(`https://raw.githubusercontent.com/Hiranyagarba/Yoga/main/patanjali-yoga-sutras/${P.folder}/${P.prefix}${String(i).padStart(2,"0")}.md`);
     status.textContent=`Loading ${P.count} sūtras…`;
     const results=await Promise.all(files.map(async (url,i)=>{
       try{
@@ -79,7 +79,7 @@
     }));
     const good=results.filter(x=>!x.error);
     if(!good.length){
-      status.innerHTML=`<div class="empty">The sūtras could not be loaded. Make sure the four <code>patanjali-yoga-sutras</code> folders are in the same repository and that GitHub Pages is publishing from the repository root.</div>`;
+      status.innerHTML=`<div class="empty">The sūtras could not be loaded. Check that the Markdown files are present in the <code>patanjali-yoga-sutras</code> folders on the <code>main</code> branch and that the repository is public.</div>`;
       return;
     }
     root.innerHTML=good.map(x=>render(x.data,x.i)).join("");
